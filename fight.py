@@ -5,7 +5,6 @@ file = input()
 if not os.path.isfile(file):
     print ("Файл не существует")
 else:
-
 	f = open(file, 'r')
 	line = f.readline()
 	n = len(line) - 1
@@ -29,5 +28,3 @@ else:
 				elif sea[i][j-1] != '#' and sea[i-1][j] != "#":
 					ships += 1
 	print(ships)
-
-
