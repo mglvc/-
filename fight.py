@@ -1,4 +1,6 @@
-f = open('text.txt', 'r')
+file = input()
+
+f = open(file, 'r')
 line = f.readline()
 n = len(line) - 1
 sea = ["*" * n for i in range(n)]
